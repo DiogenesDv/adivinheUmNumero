@@ -59,7 +59,7 @@ body {
     color: green;
 }
 
-@media screen and (min-width:500px) {
+@media screen and (max-width:400px) {
     .container-global {
         font-size: large;
     }
