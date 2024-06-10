@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <title>Number guessing game</title>
+    <link rel="stylesheet" href="css.css">
+    <script src="js.js" defer></script>
+    <style>
+      
+    </style>
+  </head>
+<!-- 127.0.0.1 -->
+  <body>
+    <div class="container-global">
+        <div class="h1-e-p">
+            <h1>Jogo de adivinhação de números</h1>
+    
+            <p>Selecionamos um número aleatório entre 1 e 10. Veja se você consegue adivinhar em 5 turnos ou menos. Diremos se seu palpite foi muito alto ou muito baixo.</p>
+        </div>
+        
+        <div class="form">
+          <label for="guessField" class="labelForm">Diga seu Palpite: </label>
+          <input type="number" min="1" max="100" required id="guessField" class="guessField">
+          <input type="submit" value="Enviar palapite ->" class="guessSubmit">
+        </div>
+    
+        <div class="resultParas">
+          <p>Palpites: </p>
+          <p class="guesses"></p>
+          <p class="lastResult"></p>
+          <p class="lowOrHi"></p>
+        </div>
+        <div class="buttonReset">
+          <button>Jogar Novamente</button>
+        </div>
+        
+    </div>
+  </body>
+</html>
