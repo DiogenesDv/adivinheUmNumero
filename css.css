@@ -59,9 +59,8 @@ body {
     color: green;
 }
 
-@media screen and (max-width:500px) {
+@media screen and (min-width:500px) {
     .container-global {
-        width: 97%;
         font-size: large;
     }
 
@@ -76,7 +75,7 @@ body {
     }
 
     .form input{
-        width: 90%;
+        width: 50%;
     }
 
     .labelForm{
@@ -84,7 +83,7 @@ body {
     }
 
     .guessField, .guessSubmit{
-        height: 35px;
+        height: 55px;
         text-align: center;
         border: none;
         border-radius: 10px;
