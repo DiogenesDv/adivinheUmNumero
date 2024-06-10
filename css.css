@@ -59,7 +59,7 @@ body {
     color: green;
 }
 
-@media(max-width:500px) {
+@media screen and (max-width:500px) {
     .container-global {
         width: 97%;
         font-size: large;
